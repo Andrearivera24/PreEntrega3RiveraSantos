@@ -1,0 +1,180 @@
+    
+// variables 
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Comic+Neue:wght@700&family=Fredoka+One&display=swap');
+$welcome-font: 'Fredoka One', cursive;
+$content-font:'Archivo Black', sans-serif;
+$darkgreen:#a4ffa1;
+$lightgreen: #ddfdd2;
+$colorFooterNav: #5015bd;
+
+//MAIN INDEX
+
+main {
+     .bg-perzonalizado-welcome {
+
+        background-color: $darkgreen;
+        border-radius: 2px;
+
+        @include mobile{
+            display:none;
+        }
+       
+    }
+    
+    h1 {
+        margin-left: 280px;
+        color:$colorFooterNav;
+        font-size: 45px;
+        font-family: $welcome-font;
+        @include mobile{
+            display:none;
+        } 
+        @include tablet{
+            margin-left: 5px;
+            font-size: 35px;
+            text-align: center;
+        }    
+    }
+
+    div {
+        .bg-section1{
+            background-color: $lightgreen;
+         }
+        
+        h2 {
+            font-family: $content-font;
+            padding-top: 150px;
+            text-align: left;
+            font-size: 50px;
+            color: #2038a6; 
+            @include mobile{
+             text-align: center;
+             padding-top: 80px;
+             font-size: 45px;
+          
+            }  
+            
+            @include tablet{
+                padding-top: 80px;
+                font-size: 55px;
+             
+               } 
+        }
+        
+        h4 {
+            font-family: $content-font;
+            text-align: left;
+            font-size: 30px;
+            color: #3751c5; 
+            @include mobile{
+                font-size:25px;
+                text-align: center;
+                
+             
+               }
+         
+        }
+        div img{
+            @include mobile{
+                width: 250px !important;
+                height: 250px !important;
+                margin-left: 20px !important;
+            }
+            @include tablet{
+                width: 500px;
+                height: 500px;
+                margin-left: 100px;
+            }
+         
+        }
+    }    
+}
+
+
+
+
+
+// MAIN MOST USED VERBS BEGINNER
+
+#mostUsedVerbBeginner{
+@include bannerVerbos;
+
+}
+
+// MAIN MOST USED VERBS INTERMEDIATE
+
+#mostUsedVerbIntermediate{
+@include bannerVerbos;
+
+}
+
+
+// MAIN MOST USED VERBS ADVANCED
+#mostUsedVerbAdvanced{
+@include bannerVerbos;
+}
+
+// MAIN USEFUL PHRASES BEGINNER
+#usefulPhrasesBeginner {
+@include bannerPhrases;
+}
+#mainUsefulPhrasesBeginner {
+
+@include mainPhrases;
+}
+
+// MAIN USEFUL PHRASES INTERMEDIATE
+#usefulPhrasesIntermediate {
+@include bannerPhrases;
+}
+
+#mainUsefulPhrasesIntermediate{
+@include mainPhrases;
+
+}
+
+// MAIN USEFUL PHRASES ADVANCED
+#usefulPhrasesAdvanced {
+@include bannerPhrases;
+}
+
+#mainUsefulPhrasesAdvanced {
+@include mainPhrases;
+
+}
+
+// MAIN USEFUL PHRASES BEGINNER
+#LessonsBeginner{
+@include bannerLessons;
+}
+
+#mainLessonsBeginner{
+
+@include mainLessons;
+}
+
+
+
+// MAIN USEFUL PHRASES INTERMEDIATE
+#LessonsIntermediate {
+@include bannerLessons;
+}
+
+#mainLessonsIntermediate {
+@include mainLessons;
+
+}
+
+
+// MAIN USEFUL PHRASES ADVANCED
+#LessonsAdvanced {
+@include bannerLessons;
+}
+
+#mainLessonsAdvanced {
+@include mainLessons;
+
+}
+
+
+

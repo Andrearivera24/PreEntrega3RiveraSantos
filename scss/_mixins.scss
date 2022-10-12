@@ -1,0 +1,84 @@
+//mixins
+
+@mixin bannerVerbos {
+    div {
+        div{
+
+           
+           img {
+                width: 60px;
+                height: 60px;
+                margin-left: 190px;
+                @include mobile {
+                    margin-left:20px;
+                    width: 60px !important;
+                    height: 60px !important; 
+                
+                 
+                } 
+                @include tablet {
+                    margin-left:50px; 
+                 
+                }   
+            }
+        }
+    
+        div{
+            background-color: $darkgreen;
+            border-radius: 2px;
+        
+            h1{ 
+                padding-top: 10px;
+                margin-left:0;
+
+            }
+        }
+    }
+}
+
+@mixin bannerPhrases { 
+    div { //fila
+     
+        div{ //columna
+            background-color: $darkgreen;
+            border-radius: 2px;
+            
+            
+            h1{ 
+                padding-left:100px;
+            } 
+        }
+       
+    }
+    }
+
+@mixin mainPhrases {
+    background-color:$lightgreen;
+    div{ //FILA
+       div{ //COLUMNA
+        background-color: $lightgreen;
+       } 
+    }
+}
+
+
+@mixin bannerLessons {
+    div { //fila
+        div{ //columna
+            background-color: $darkgreen;
+            border-radius: 2px;
+            h1{ 
+                padding-left:100px;
+            } 
+        }
+       
+    }
+}
+@mixin mainLessons {
+    background-color:$lightgreen;
+    div{ //FILA
+       div{ //COLUMNA
+        background-color: $lightgreen;
+       } 
+    }
+}

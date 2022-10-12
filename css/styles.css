@@ -1,0 +1,394 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Comic+Neue:wght@700&family=Fredoka+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0; }
+
+body {
+  background-image: url(../assets/images/fondo.jpg);
+  background-position: center;
+  height: 100vh;
+  width: 100vw; }
+  @media screen and (max-width: 320px) {
+    body {
+      height: 800px; } }
+  @media screen and (max-width: 320px) {
+    body br {
+      display: none; } }
+
+.header320 {
+  height: 10vh;
+  width: 100vw; }
+  @media screen and (max-width: 320px) {
+    .header320 {
+      height: 56px; } }
+  @media screen and (max-width: 768px) {
+    .header320 {
+      height: 56px; } }
+  .header320 .bg-personalizado {
+    background-color: #5015bd; }
+    @media screen and (max-width: 320px) {
+      .header320 .bg-personalizado .container-fluid .navbar-toggler {
+        margin-right: 25px; } }
+    .header320 .bg-personalizado .container-fluid .logoHeader img {
+      width: 40px;
+      height: 40px;
+      border-radius: 80%;
+      margin-left: 100px;
+      margin-right: 50px; }
+      @media screen and (max-width: 320px) {
+        .header320 .bg-personalizado .container-fluid .logoHeader img {
+          margin: 0; } }
+      @media screen and (max-width: 768px) {
+        .header320 .bg-personalizado .container-fluid .logoHeader img {
+          margin: 0; } }
+    .header320 .bg-personalizado .container-fluid a {
+      font-family: "Comic Neue", cursive;
+      font-size: 20px; }
+      @media screen and (max-width: 320px) {
+        .header320 .bg-personalizado .container-fluid a {
+          margin-right: 100px; } }
+    .header320 .bg-personalizado .container-fluid #navbarNavDropdown .bg-personalizado2 {
+      background-color: #888dda; }
+
+.headerCards {
+  height: 10vh;
+  width: 100vw; }
+  @media screen and (max-width: 320px) {
+    .headerCards {
+      height: 170px; } }
+  .headerCards .bg-personalizado {
+    background-color: #5015bd; }
+    @media screen and (max-width: 320px) {
+      .headerCards .bg-personalizado .container-fluid .navbar-toggler {
+        margin-right: 25px; } }
+    @media screen and (max-width: 768px) {
+      .headerCards .bg-personalizado .container-fluid .navbar-toggler {
+        margin-right: 2px; } }
+    .headerCards .bg-personalizado .container-fluid .logoHeader img {
+      width: 40px;
+      height: 40px;
+      border-radius: 80%;
+      margin-left: 100px;
+      margin-right: 50px; }
+      @media screen and (max-width: 320px) {
+        .headerCards .bg-personalizado .container-fluid .logoHeader img {
+          margin: 0; } }
+      @media screen and (max-width: 768px) {
+        .headerCards .bg-personalizado .container-fluid .logoHeader img {
+          margin: 0; } }
+    .headerCards .bg-personalizado .container-fluid a {
+      font-family: "Comic Neue", cursive;
+      font-size: 20px; }
+      @media screen and (max-width: 320px) {
+        .headerCards .bg-personalizado .container-fluid a {
+          margin-right: 100px; } }
+    .headerCards .bg-personalizado .container-fluid #navbarNavDropdown .bg-personalizado2 {
+      background-color: #888dda; }
+
+main .bg-perzonalizado-welcome {
+  background-color: #a4ffa1;
+  border-radius: 2px; }
+  @media screen and (max-width: 320px) {
+    main .bg-perzonalizado-welcome {
+      display: none; } }
+
+main h1 {
+  margin-left: 280px;
+  color: #5015bd;
+  font-size: 45px;
+  font-family: "Fredoka One", cursive; }
+  @media screen and (max-width: 320px) {
+    main h1 {
+      display: none; } }
+  @media screen and (max-width: 768px) {
+    main h1 {
+      margin-left: 5px;
+      font-size: 35px;
+      text-align: center; } }
+
+main div .bg-section1 {
+  background-color: #ddfdd2; }
+
+main div h2 {
+  font-family: "Archivo Black", sans-serif;
+  padding-top: 150px;
+  text-align: left;
+  font-size: 50px;
+  color: #2038a6; }
+  @media screen and (max-width: 320px) {
+    main div h2 {
+      text-align: center;
+      padding-top: 80px;
+      font-size: 45px; } }
+  @media screen and (max-width: 768px) {
+    main div h2 {
+      padding-top: 80px;
+      font-size: 55px; } }
+
+main div h4 {
+  font-family: "Archivo Black", sans-serif;
+  text-align: left;
+  font-size: 30px;
+  color: #3751c5; }
+  @media screen and (max-width: 320px) {
+    main div h4 {
+      font-size: 25px;
+      text-align: center; } }
+
+@media screen and (max-width: 320px) {
+  main div div img {
+    width: 250px !important;
+    height: 250px !important;
+    margin-left: 20px !important; } }
+
+@media screen and (max-width: 768px) {
+  main div div img {
+    width: 500px;
+    height: 500px;
+    margin-left: 100px; } }
+
+#mostUsedVerbBeginner div div img {
+  width: 60px;
+  height: 60px;
+  margin-left: 190px; }
+  @media screen and (max-width: 320px) {
+    #mostUsedVerbBeginner div div img {
+      margin-left: 20px;
+      width: 60px !important;
+      height: 60px !important; } }
+  @media screen and (max-width: 768px) {
+    #mostUsedVerbBeginner div div img {
+      margin-left: 50px; } }
+
+#mostUsedVerbBeginner div div {
+  background-color: #a4ffa1;
+  border-radius: 2px; }
+  #mostUsedVerbBeginner div div h1 {
+    padding-top: 10px;
+    margin-left: 0; }
+
+#mostUsedVerbIntermediate div div img {
+  width: 60px;
+  height: 60px;
+  margin-left: 190px; }
+  @media screen and (max-width: 320px) {
+    #mostUsedVerbIntermediate div div img {
+      margin-left: 20px;
+      width: 60px !important;
+      height: 60px !important; } }
+  @media screen and (max-width: 768px) {
+    #mostUsedVerbIntermediate div div img {
+      margin-left: 50px; } }
+
+#mostUsedVerbIntermediate div div {
+  background-color: #a4ffa1;
+  border-radius: 2px; }
+  #mostUsedVerbIntermediate div div h1 {
+    padding-top: 10px;
+    margin-left: 0; }
+
+#mostUsedVerbAdvanced div div img {
+  width: 60px;
+  height: 60px;
+  margin-left: 190px; }
+  @media screen and (max-width: 320px) {
+    #mostUsedVerbAdvanced div div img {
+      margin-left: 20px;
+      width: 60px !important;
+      height: 60px !important; } }
+  @media screen and (max-width: 768px) {
+    #mostUsedVerbAdvanced div div img {
+      margin-left: 50px; } }
+
+#mostUsedVerbAdvanced div div {
+  background-color: #a4ffa1;
+  border-radius: 2px; }
+  #mostUsedVerbAdvanced div div h1 {
+    padding-top: 10px;
+    margin-left: 0; }
+
+#usefulPhrasesBeginner div div {
+  background-color: #a4ffa1;
+  border-radius: 2px; }
+  #usefulPhrasesBeginner div div h1 {
+    padding-left: 100px; }
+
+#mainUsefulPhrasesBeginner {
+  background-color: #ddfdd2; }
+  #mainUsefulPhrasesBeginner div div {
+    background-color: #ddfdd2; }
+
+#usefulPhrasesIntermediate div div {
+  background-color: #a4ffa1;
+  border-radius: 2px; }
+  #usefulPhrasesIntermediate div div h1 {
+    padding-left: 100px; }
+
+#mainUsefulPhrasesIntermediate {
+  background-color: #ddfdd2; }
+  #mainUsefulPhrasesIntermediate div div {
+    background-color: #ddfdd2; }
+
+#usefulPhrasesAdvanced div div {
+  background-color: #a4ffa1;
+  border-radius: 2px; }
+  #usefulPhrasesAdvanced div div h1 {
+    padding-left: 100px; }
+
+#mainUsefulPhrasesAdvanced {
+  background-color: #ddfdd2; }
+  #mainUsefulPhrasesAdvanced div div {
+    background-color: #ddfdd2; }
+
+#LessonsBeginner div div {
+  background-color: #a4ffa1;
+  border-radius: 2px; }
+  #LessonsBeginner div div h1 {
+    padding-left: 100px; }
+
+#mainLessonsBeginner {
+  background-color: #ddfdd2; }
+  #mainLessonsBeginner div div {
+    background-color: #ddfdd2; }
+
+#LessonsIntermediate div div {
+  background-color: #a4ffa1;
+  border-radius: 2px; }
+  #LessonsIntermediate div div h1 {
+    padding-left: 100px; }
+
+#mainLessonsIntermediate {
+  background-color: #ddfdd2; }
+  #mainLessonsIntermediate div div {
+    background-color: #ddfdd2; }
+
+#LessonsAdvanced div div {
+  background-color: #a4ffa1;
+  border-radius: 2px; }
+  #LessonsAdvanced div div h1 {
+    padding-left: 100px; }
+
+#mainLessonsAdvanced {
+  background-color: #ddfdd2; }
+  #mainLessonsAdvanced div div {
+    background-color: #ddfdd2; }
+
+.flashcards .row .bg-section1 .card {
+  position: relative;
+  width: 300px;
+  height: 350px;
+  margin: 20px; }
+  @media screen and (max-width: 768px) {
+    .flashcards .row .bg-section1 .card {
+      width: 200px;
+      height: 250px; } }
+  .flashcards .row .bg-section1 .card:hover .front {
+    transform: perspective(600px) rotateY(180deg); }
+  .flashcards .row .bg-section1 .card:hover .back {
+    transform: perspective(600px) rotateY(360deg); }
+  .flashcards .row .bg-section1 .card .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s; }
+  .flashcards .row .bg-section1 .card .front {
+    transform: perspective(600px) rotateY(0deg); }
+    .flashcards .row .bg-section1 .card .front img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+      @media screen and (max-width: 320px) {
+        .flashcards .row .bg-section1 .card .front img {
+          margin: 0 !important; } }
+      @media screen and (max-width: 768px) {
+        .flashcards .row .bg-section1 .card .front img {
+          margin: 0; } }
+    .flashcards .row .bg-section1 .card .front h3 {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 45px;
+      line-height: 45px;
+      font-family: "Comic Neue", cursive;
+      color: #fff;
+      background: rgba(59, 18, 170, 0.4);
+      text-align: center; }
+  .flashcards .row .bg-section1 .card .back {
+    transform: perspective(600px) rotateY(180deg);
+    background: #5015bd;
+    padding: 15px;
+    color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center; }
+    .flashcards .row .bg-section1 .card .back .link {
+      border-top: solid 1px #f3f3f3;
+      height: 50px;
+      line-height: 50px; }
+      .flashcards .row .bg-section1 .card .back .link a {
+        color: #f3f3f3;
+        font-family: "Sans"; }
+    .flashcards .row .bg-section1 .card .back h3 {
+      font-size: 30px;
+      font-family: "Comic Neue", cursive;
+      margin-top: 20px;
+      letter-spacing: 2px; }
+    .flashcards .row .bg-section1 .card .back p {
+      letter-spacing: 1px; }
+
+footer {
+  height: 25vh;
+  width: 100vw;
+  background-color: #5015bd; }
+  @media screen and (max-width: 320px) {
+    footer {
+      height: 15vh; } }
+  @media screen and (max-width: 320px) {
+    footer div {
+      width: 320px;
+      height: 30px; } }
+  footer div img {
+    margin-top: 10px;
+    margin-left: 41vw; }
+    @media screen and (max-width: 320px) {
+      footer div img {
+        margin-top: 15px !important;
+        margin-left: 40px !important; } }
+    @media screen and (max-width: 768px) {
+      footer div img {
+        margin-left: 260px; } }
+  @media screen and (max-width: 320px) {
+    footer div {
+      width: 320px;
+      height: 35px; } }
+  footer div p {
+    margin-top: 25px;
+    font-family: "Comic Neue", cursive;
+    text-align: center; }
+
+.form {
+  margin-top: 30px;
+  height: 75vh; }
+  @media screen and (max-width: 320px) {
+    .form {
+      height: 120vh; } }
+  .form form {
+    background-color: #ddfdd2;
+    border-radius: 10px;
+    border: 15px solid #4fe488; }
+    .form form label {
+      font-family: "Comic Neue", cursive;
+      color: #5015bd; }
+    .form form .btn {
+      background-color: #5015bd;
+      font-family: "Comic Neue", cursive; }

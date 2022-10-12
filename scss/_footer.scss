@@ -1,0 +1,58 @@
+// variables 
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+$navfooter-font:'Comic Neue', cursive;
+$colorFooterNav: #5015bd;
+footer {
+    height: 25vh;
+    width: 100vw;
+    background-color:$colorFooterNav;
+    @include mobile {
+        height: 15vh;
+
+    }
+   
+    div{
+        @include mobile {
+            width:320px;
+            height:30px;
+            
+    
+        }
+
+       img {
+
+        margin-top:10px;
+        margin-left:41vw;
+        @include mobile {
+            margin-top:15px !important;
+            margin-left:40px !important;
+    
+        }
+        @include tablet{
+
+            margin-left:260px;
+    
+        }
+       }
+     
+
+    }
+    div {
+        @include mobile {
+            width:320px;
+            height:35px;
+        } 
+        p{
+            margin-top:25px;
+            font-family:$navfooter-font;
+            text-align: center;
+            
+            
+           
+        }
+    }
+  
+}
+
+
+

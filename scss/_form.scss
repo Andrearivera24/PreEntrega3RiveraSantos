@@ -1,0 +1,32 @@
+// variables 
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+$navfooter-font:'Comic Neue', cursive;
+$colorFooterNav: #5015bd;
+
+.form {
+    margin-top:30px;
+    height: 75vh;
+    @include mobile {
+        height: 120vh;
+
+    }
+      
+    
+    form{
+    background-color: #ddfdd2;   
+    border-radius: 10px;
+    border: 15px solid #4fe488 ;
+     label {
+        font-family:$navfooter-font; 
+        color:$colorFooterNav;
+        }
+
+        .btn{
+        background-color:$colorFooterNav;    
+        font-family:$navfooter-font;
+        }
+
+    }
+
+
+}
